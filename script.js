@@ -159,7 +159,7 @@ async function main() {
         if (index >= songs.length - 1) {
             playMusic(songs[0].replace(".mp3", ""), document.querySelectorAll(".songlist li")[0]);
         } else {
-            playMusic(songs[index + 1].replace(".mp3", ""), document.querySelectorAll(".songlist li")[index + 1]);
+            playMusic(songs[index + 1].replace(".mp3", ""), document.queryAll(".songlist li")[index + 1]);
         }
     });
 
